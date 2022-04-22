@@ -102,7 +102,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         val CLIENTPORT = 50001
         val SERVERPORT = 50001
-        val SERVER_IP = "192.168.58.112"
+        val SERVER_IP = "255.255.255.255"
     }
 
 
