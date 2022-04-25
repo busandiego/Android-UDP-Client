@@ -101,7 +101,11 @@ class MainActivity : AppCompatActivity() {
     companion object {
         val CLIENTPORT = 50001
         val SERVERPORT = 50001
-        val SERVER_IP = "192.168.1.255"
+        // val SERVER_IP = "192.168.1.255"
+         val SERVER_IP = "255.255.255.255" // 'Within' the emulator!
+        // val SERVER_IP = "192.168.25.255"
+       //  val SERVER_IP = "192.168.43.255"
+        // val SERVER_IP = ""192.168.43.1""
     }
 
 
