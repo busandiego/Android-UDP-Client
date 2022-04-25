@@ -69,7 +69,6 @@ class MainActivity : AppCompatActivity() {
         // * Open the network socket connection and start receiving a Byte Array                        *
         // **********************************************************************************************
         override fun run() {
-
             try {
                 //Keep a socket open to listen to all the UDP trafic that is destined for this port
                 socket = DatagramSocket(CLIENTPORT)
@@ -102,7 +101,7 @@ class MainActivity : AppCompatActivity() {
     companion object {
         val CLIENTPORT = 50001
         val SERVERPORT = 50001
-        val SERVER_IP = "255.255.255.255"
+        val SERVER_IP = "192.168.1.255"
     }
 
 
